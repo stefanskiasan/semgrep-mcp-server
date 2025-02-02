@@ -1,9 +1,20 @@
 # Semgrep Server
 
+[![smithery badge](https://smithery.ai/badge/@stefanskiasan/semgrep-mcp-server)](https://smithery.ai/server/@stefanskiasan/semgrep-mcp-server)
+
 Ein Model Context Protocol (MCP) Server für die Integration von Semgrep in die Entwicklungsumgebung. Dieser Server ermöglicht die Durchführung von statischen Code-Analysen und die Verwaltung von Semgrep-Regeln direkt über das MCP-Protokoll.
 
 ## Installation
 
+### Installing via Smithery
+
+To install Semgrep Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@stefanskiasan/semgrep-mcp-server):
+
+```bash
+npx -y @smithery/cli install @stefanskiasan/semgrep-mcp-server --client claude
+```
+
+### Manual Installation
 ```bash
 # Repository klonen
 git clone [repository-url]
